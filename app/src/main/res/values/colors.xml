@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FAFAFA</color>
+    <color name="gray2">#a5a9b4</color>
+    <color name="gray5">#262a31</color>
+
+    <color name="pulse">#df5f5d</color>
+
+    <color name="gold3">#a58144</color>
+    <color name="app_bar">#dddfe2</color>
+    <color name="vk_black">#000</color>
+</resources>

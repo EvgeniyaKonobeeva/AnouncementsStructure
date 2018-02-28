@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="добавить страницу"
+        android:id="@+id/create_page"/>
+
+    <item android:title="изменить страницу"
+        android:id="@+id/edit_page" />
+
+    <item android:title="удалить страницу"
+        android:id="@+id/delete_page" />
+
+    <item android:title="изменить кнопку"
+        android:id="@+id/add_button" />
+
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AnouncementsStructure</string>
+    <string name="create_new">Создать новость</string>
+    <string name="edit">Редактировать новость</string>
+
+
+    <string-array name="operations_array">
+        <item>Добавить</item>
+        <item>Удалить</item>
+        <item>Изменить</item>
+    </string-array>
+
+    <string-array name="text_operations_array">
+        <item>Добавить</item>
+        <item>Изменить</item>
+    </string-array>
+
+</resources>

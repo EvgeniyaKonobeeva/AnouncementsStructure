@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="добавить текст"
+        android:id="@+id/add_text"/>
+
+    <item android:title="добавить картинку"
+        android:id="@+id/add_pic" />
+
+    <item android:title="выровнять по центру"
+        android:id="@+id/add_align_center" />
+
+    <item android:title="выровнять по левому краю"
+        android:id="@+id/add_align_left" />
+
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/page_fragment_id">
+
+   <include layout="@layout/header_save_back_press"
+       android:id="@+id/toolbar"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintBottom_toTopOf="@+id/page_fragment_recycler"
+       app:layout_constraintHeight_default="spread"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/page_fragment_recycler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintVertical_bias="0"
+        android:overScrollMode="never"
+        android:isScrollContainer="true"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintWidth_default="spread"
+
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <io.github.yavski.fabspeeddial.FabSpeedDial
+        android:id="@+id/create_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        custom:fabBackgroundTint="@color/pulse"
+        app:fabMenu="@menu/create_page_menu"
+        custom:fabSize="normal"
+        app:fabGravity="bottom_start"
+        custom:miniFabBackgroundTint="@color/gray2"
+        custom:miniFabDrawableTint="@color/white"
+        custom:miniFabTitleTextColor="@color/gray5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</android.support.constraint.ConstraintLayout>
